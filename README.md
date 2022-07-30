@@ -6,6 +6,8 @@ SM3密码杂凑算法的迭代压缩过程：
 整个过程是消息输入后转码为ASCII形式，然后是数据填充和迭代压缩两个过程,消息扩展主要包括循环左移、异或、置换，消息经过扩展函数之后长度变成512比特，然后进行压缩，主要包括循环左移、模加运算、抑异或操作、布尔函数FFj、GGj、置换操作，经过迭代压缩之后最终输出哈希结果。
 
 运行结果：
+
+
 ![image](https://user-images.githubusercontent.com/105495105/181880015-613f82fb-66a0-4c74-8349-92ed65ceb95f.png)
 
 ![image](https://user-images.githubusercontent.com/105495105/181880098-346a8343-8eea-4065-bdc5-5cb1659c9464.png)
